@@ -1,0 +1,196 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(237, 237, 228);
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(24, 19, 31);
+    color: rgb(237, 236, 228);
+}
+
+h1 {
+    display: inline;
+}
+
+.letraD {
+    color: rgb(31, 143, 83);
+}
+
+.letraA {
+    color: rgb(255, 20, 48);
+}
+
+.menu {
+    display: flex;
+}
+
+.menu a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: rgb(237, 236, 228);
+    border: 1px solid rgb(237, 236, 228);
+    padding: 5px 10px;
+}
+
+.menu a:hover {
+    background-color: rgb(255, 20, 48);
+    transition: 0.3s;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    max-height: 100vh;
+}
+
+.containerHome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    height: auto;
+    max-height: 600px;
+    width: auto;
+    max-width: 600px;
+}
+
+.despacho {
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    max-height: 500px;
+    border-radius: 30%;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 10);
+    margin: 20px;
+}
+
+h2 {
+    color: rgb(255, 20, 48);
+
+}
+
+.textHome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+p {
+    font-size: 15px;
+    text-align: center;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 10px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(24, 19, 31);
+    color: rgb(237, 236, 228);
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.signature {
+    width: 100%;
+}
+
+/* Pagina quem somos */
+
+.estoquistas {
+    width: auto;
+    max-width: 500px;
+    height: auto;
+    max-height: 500px;
+    border-radius: 30%;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 10);
+    margin: 20px auto;
+}
+
+.perfil {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    margin: 10px 0;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.perfil img {
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 10);
+}
+
+.containerQuemSomos {
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+    height: auto;
+    max-height: 100%;
+    width: auto;
+    max-width: 800PX;
+    margin: 0 auto;
+}
+
+.textQuemsomos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 20px;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Pagina contato */
+
+.textContato {
+    display: flex;
+    max-width: 600px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
